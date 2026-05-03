@@ -228,7 +228,7 @@ export default function TSESBetaSignup() {
 
                 <p className="text-stone-700 text-base sm:text-lg leading-relaxed mb-8 max-w-md">
                   Join the TSES Beta Testers community and get early access to the products we're building —
-                  Soludesks, Stayafrika, Feexeet, and more.
+                  Soludesks, Stayafrika, Feexeet, Pssps, TDAR, and more.
                 </p>
 
                 <div className="space-y-3.5 mb-8">
@@ -450,10 +450,10 @@ export default function TSESBetaSignup() {
                         </div>
 
                         <Field
-                          label="How did you hear about Soludesks?"
+                          label="How did you hear about TSES products?"
                           required
                           error={errors.community}
-                          hint="e.g. Product Hub Africa, a friend, a WhatsApp group, email"
+                          hint="Soludesks, Stayafrika, Feexeet, Pssps, TDAR, and more — e.g. Product Hub Africa, a friend, a WhatsApp group, email"
                         >
                           <input
                             type="text"
@@ -600,7 +600,7 @@ export default function TSESBetaSignup() {
                 </div>
 
                 <p className="text-xs text-stone-500 mt-4 px-2 leading-relaxed">
-                  Your details stay with the Soludesks team. We won't share, sell, or spam — promise.
+                  Your details stay with the TSES team. We won't share, sell, or spam — promise.
                 </p>
               </section>
             </div>
